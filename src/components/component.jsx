@@ -1,7 +1,9 @@
 import React from 'react';
 
 function Component() {
-    return <div></div>;
+    return <div>
+        tesr
+    </div>;
 }
 
 export default Component;
