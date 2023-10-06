@@ -1,0 +1,25 @@
+
+.SerchBar{
+    display: flex;
+  width: 400px;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 24px;
+  border-radius: 100px;
+  background: #F2F0FF;
+  }
+  
+  .SerchBar_1{
+    color: var(--Gray_3, #B4B4B4);
+  font-family: Pretendard;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 133.333% */
+  }
+  
+  .SerchBar_rg{
+    width: 20px;
+  height: 21px;
+  flex-shrink: 0;
+  }
