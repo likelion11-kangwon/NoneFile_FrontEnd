@@ -4,7 +4,7 @@ import StatusFace from './StatusFace';
 
 function Status({ None }) {
     return (
-        <>
+        <div>
             {None === 'No' ? (
                 <div className="property">
                     <div>
@@ -30,7 +30,7 @@ function Status({ None }) {
                     </div>
                 </div>
             )}
-        </>
+        </div>
     );
 }
 

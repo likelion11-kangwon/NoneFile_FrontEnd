@@ -28,7 +28,9 @@ function SerchBar() {
                 </svg>
             </div>
             <div className="SerchBar-text">
-                <input type="TEXT" name="검색어를 입력하세요"></input>
+                <input type="TEXT" name="검색어를 입력하세요">
+                    {' '}
+                </input>
             </div>
         </div>
     );
