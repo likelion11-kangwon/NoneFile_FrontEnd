@@ -10,14 +10,14 @@
     border-radius: 100px;
     background-color: $sub_color;
 
-    .SerchBar-text {
-        color: $grey_3;
-        @include Body2-Regular;
-    }
-
     .SerchBar_rg {
         width: 20px;
         height: 21px;
         flex-shrink: 0;
     }
+}
+
+.SerchBar-text input[type='text'] {
+    color: $grey_3;
+    @include Body2-Regular;
 }

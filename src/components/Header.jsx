@@ -12,7 +12,7 @@ function Header() {
                 <ServiceName color="black" />
                 <SerchBar />
             </div>
-            <ProfileIcon />
+            <ProfileIcon size={50} />
         </div>
     );
 }

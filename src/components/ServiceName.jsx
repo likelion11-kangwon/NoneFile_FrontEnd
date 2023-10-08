@@ -6,9 +6,9 @@ function ServiceName({ color }) {
     return (
         <div className="service-name-frame">
             {color === 'black' ? (
-                <div className="service-name-text">Service Name</div>
+                <div className="service-name-text">{TEXT}</div>
             ) : (
-                <div className="service-name-text-white">test</div>
+                <div className="service-name-text-white">{TEXT}</div>
             )}
         </div>
     );

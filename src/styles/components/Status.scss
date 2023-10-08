@@ -1,0 +1,75 @@
+@import '../variables/color.scss';
+@import '../variables/textStyle.scss';
+
+.property {
+    display: flex;
+    width: 700px;
+    min-width: 400px;
+    max-width: 1080px;
+    padding: 20px 0px;
+    align-items: center;
+    gap: 24px;
+
+    border-radius: 24px;
+    background: var(--White, #fff);
+}
+
+.property > div:nth-child(1) {
+    display: flex;
+    padding: 0px 40px;
+    align-items: center;
+    gap: 10px;
+}
+
+.property > div:nth-child(2) {
+    display: flex;
+    padding: 0px 28px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+}
+
+.property > div:nth-child(2) > h3 {
+    color: var(--Gray_1, #353535);
+    font-family: Pretendard;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 129.412% */
+}
+
+.property_1 {
+    display: flex;
+    width: 700px;
+    min-width: 400px;
+    max-width: 1080px;
+    padding: 20px 0px;
+    align-items: center;
+    gap: 24px;
+
+    border-radius: 24px;
+    background: var(--White, #fff);
+}
+
+.property_1 > div:nth-child(1) {
+    display: flex;
+    padding: 0px 40px;
+    align-items: center;
+    gap: 10px;
+}
+
+.property_1 > div:nth-child(2) {
+    display: flex;
+    padding: 0px 28px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+}
+
+.property_1 > span {
+    @include Subtitle-medium;
+}

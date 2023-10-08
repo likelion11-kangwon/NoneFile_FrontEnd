@@ -1,2 +1,29 @@
 @import '../variables/color.scss';
 @import '../variables/textStyle.scss';
+
+.ProfileIcon {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.ProfileIcon_1 {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.ProfileIcon_2 {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+}
+
+.ProfileIcon_3 {
+    display: flex;
+    width: 280px;
+    height: 280px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}

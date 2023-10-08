@@ -1,0 +1,414 @@
+@import '../variables/color.scss';
+@import '../variables/textStyle.scss';
+
+.LeftBar_main {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    // 나중에 삭제 요망
+    background-color: aqua;
+}
+.Frame_first {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    //스타일
+    border-radius: 20px;
+    .Navigation_Bar_1 {
+        display: flex;
+        width: 200px;
+        min-width: 160px;
+        max-width: 200px;
+        padding: 8px 40px;
+        align-items: center;
+        gap: 12px;
+
+        border-radius: 16px;
+        background: var(--White, #fff);
+        .Navigation_Bar_1_Union {
+            width: 16px;
+            height: 16px;
+            flex-shrink: 0;
+
+            fill: var(--MainColor, #804bf1);
+        }
+        .Navigation_Bar_1_text {
+            color: var(--Black, #222);
+            font-family: Pretendard;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px; /* 129.412% */
+        }
+    }
+
+    .Navigation_Bar_2 {
+        display: flex;
+        width: 200px;
+        min-width: 160px;
+        max-width: 200px;
+        padding: 8px 40px;
+        align-items: center;
+        gap: 12px;
+
+        border-radius: 16px;
+        background: var(--White, #fff);
+        .Navigation_Bar_2_1 {
+            display: flex;
+            padding: 0px 2px;
+            justify-content: center;
+            align-items: center;
+
+            .Frame_second > svg {
+                width: 12px;
+                height: 16px;
+
+                fill: var(--MainColor, #804bf1);
+            }
+            .Navigation_Bar_2 > h3 {
+                color: var(--Black, #222);
+                font-family: Pretendard;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 22px; /* 129.412% */
+            }
+        }
+    }
+}
+
+.Frame_second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .Frame_second > h3 {
+        color: #000;
+
+        /* Body1-bold */
+        font-family: Pretendard;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px; /* 129.412% */
+    }
+    .Kategorie_Bar {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+
+        .Kategorie_Bar_1 {
+            display: flex;
+            width: 200px;
+            min-width: 160px;
+            max-width: 200px;
+            padding: 8px 40px;
+            align-items: center;
+            gap: 12px;
+
+            border-radius: 16px;
+            background: var(--White, #fff);
+
+            .Kategorie_Bar_1 > svg {
+                width: 16px;
+                height: 16px;
+                flex-shrink: 0;
+
+                fill: var(--MainColor, #804bf1);
+            }
+            .Kategorie_Bar_1 > h3 {
+                color: var(--Black, #222);
+                font-family: Pretendard;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 22px; /* 129.412% */
+            }
+        }
+        .Kategorie_Bar_2 {
+            display: flex;
+            width: 200px;
+            min-width: 160px;
+            max-width: 200px;
+            padding: 8px 40px;
+            align-items: center;
+            gap: 12px;
+
+            border-radius: 16px;
+            background: var(--White, #fff);
+
+            .Kategorie_Bar_2 > svg {
+                width: 16px;
+                height: 16px;
+                flex-shrink: 0;
+
+                fill: var(--MainColor, #804bf1);
+            }
+            .Kategorie_Bar_2 > h3 {
+                color: var(--Black, #222);
+                font-family: Pretendard;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 22px; /* 129.412% */
+            }
+        }
+        .Kategorie_Bar_3 {
+            display: flex;
+            width: 200px;
+            min-width: 160px;
+            max-width: 200px;
+            padding: 8px 40px;
+            align-items: center;
+            gap: 12px;
+
+            border-radius: 16px;
+            background: var(--White, #fff);
+
+            .Kategorie_Bar_3 > svg {
+                width: 16px;
+                height: 16px;
+                flex-shrink: 0;
+
+                fill: var(--MainColor, #804bf1);
+            }
+            .Kategorie_Bar_3 > h3 {
+                color: var(--Black, #222);
+                font-family: Pretendard;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 22px; /* 129.412% */
+            }
+        }
+        .Kategorie_Bar_4 {
+            display: flex;
+            width: 200px;
+            min-width: 160px;
+            max-width: 200px;
+            padding: 8px 40px;
+            align-items: center;
+            gap: 12px;
+
+            border-radius: 16px;
+            background: var(--White, #fff);
+
+            .Kategorie_Bar_4 > svg {
+                width: 16px;
+                height: 16px;
+                flex-shrink: 0;
+
+                fill: var(--MainColor, #804bf1);
+            }
+            .Kategorie_Bar_4 > h3 {
+                color: var(--Black, #222);
+                font-family: Pretendard;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 22px; /* 129.412% */
+            }
+        }
+        .Kategorie_Bar_5 {
+            display: flex;
+            width: 200px;
+            min-width: 160px;
+            max-width: 200px;
+            padding: 8px 40px;
+            align-items: center;
+            gap: 12px;
+
+            border-radius: 16px;
+            background: var(--White, #fff);
+
+            .Kategorie_Bar_5 > svg {
+                width: 16px;
+                height: 16px;
+                flex-shrink: 0;
+
+                fill: var(--MainColor, #804bf1);
+            }
+            .Kategorie_Bar_5 > h3 {
+                color: var(--Black, #222);
+                font-family: Pretendard;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 22px; /* 129.412% */
+            }
+        }
+        .Kategorie_Bar_6 {
+            display: flex;
+            width: 200px;
+            min-width: 160px;
+            max-width: 200px;
+            padding: 8px 40px;
+            align-items: center;
+            gap: 12px;
+
+            border-radius: 16px;
+            background: var(--White, #fff);
+
+            .Kategorie_Bar_6 > svg {
+                width: 16px;
+                height: 16px;
+                flex-shrink: 0;
+
+                fill: var(--MainColor, #804bf1);
+            }
+            .Kategorie_Bar_6 > h3 {
+                color: var(--Black, #222);
+                font-family: Pretendard;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 22px; /* 129.412% */
+            }
+        }
+        .Kategorie_Bar_7 {
+            display: flex;
+            width: 200px;
+            min-width: 160px;
+            max-width: 200px;
+            padding: 8px 40px;
+            align-items: center;
+            gap: 12px;
+
+            border-radius: 16px;
+            background: var(--White, #fff);
+
+            .Kategorie_Bar_7 > svg {
+                width: 16px;
+                height: 16px;
+                flex-shrink: 0;
+
+                fill: var(--MainColor, #804bf1);
+            }
+            .Kategorie_Bar_7 > h3 {
+                color: var(--Black, #222);
+                font-family: Pretendard;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 22px; /* 129.412% */
+            }
+        }
+        .Kategorie_Bar_8 {
+            display: flex;
+            width: 200px;
+            min-width: 160px;
+            max-width: 200px;
+            padding: 8px 40px;
+            align-items: center;
+            gap: 12px;
+
+            border-radius: 16px;
+            background: var(--White, #fff);
+
+            .Kategorie_Bar_8 > svg {
+                width: 16px;
+                height: 16px;
+                flex-shrink: 0;
+
+                fill: var(--MainColor, #804bf1);
+            }
+            .Kategorie_Bar_8 > h3 {
+                color: var(--Black, #222);
+                font-family: Pretendard;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 22px; /* 129.412% */
+            }
+        }
+        .Kategorie_Bar_9 {
+            display: flex;
+            width: 200px;
+            min-width: 160px;
+            max-width: 200px;
+            padding: 8px 40px;
+            align-items: center;
+            gap: 12px;
+
+            border-radius: 16px;
+            background: var(--White, #fff);
+
+            .Kategorie_Bar_9 > svg {
+                width: 16px;
+                height: 16px;
+                flex-shrink: 0;
+
+                fill: var(--MainColor, #804bf1);
+            }
+            .Kategorie_Bar_9 > h3 {
+                color: var(--Black, #222);
+                font-family: Pretendard;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 22px; /* 129.412% */
+            }
+        }
+        .Kategorie_Bar_10 {
+            display: flex;
+            width: 200px;
+            min-width: 160px;
+            max-width: 200px;
+            padding: 8px 40px;
+            align-items: center;
+            gap: 12px;
+
+            border-radius: 16px;
+            background: var(--White, #fff);
+
+            .Kategorie_Bar_10 > svg {
+                width: 16px;
+                height: 16px;
+                flex-shrink: 0;
+
+                fill: var(--MainColor, #804bf1);
+            }
+            .Kategorie_Bar_10 > h3 {
+                color: var(--Black, #222);
+                font-family: Pretendard;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 22px; /* 129.412% */
+            }
+        }
+        .Kategorie_Bar_11 {
+            display: flex;
+            width: 200px;
+            min-width: 160px;
+            max-width: 200px;
+            padding: 8px 40px;
+            align-items: center;
+            gap: 12px;
+
+            border-radius: 16px;
+            background: var(--White, #fff);
+
+            .Kategorie_Bar_11 > svg {
+                width: 16px;
+                height: 16px;
+                flex-shrink: 0;
+
+                fill: var(--MainColor, #804bf1);
+            }
+            .Kategorie_Bar_11 > h3 {
+                color: var(--Black, #222);
+                font-family: Pretendard;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 22px; /* 129.412% */
+            }
+        }
+    }
+}

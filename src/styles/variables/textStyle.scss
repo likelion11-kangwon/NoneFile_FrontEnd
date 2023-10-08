@@ -40,20 +40,32 @@
     @include Body2;
 }
 
-.Body1-bold,
-.Body1-medium,
-.Body1-Regular {
+@mixin Body1-bold {
+    @include Body1;
+}
+@mixin Body1-medium {
+    @include Body1;
+}
+@mixin Body1-Regular {
     @include Body1;
 }
 
-.Body2-heavy,
-.Body2-bold,
-.Body2-medium {
+@mixin Body2-heavy {
+    @include Body2;
+}
+@mixin Body2-bold {
+    @include Body2;
+}
+@mixin Body2-medium {
     @include Body2;
 }
 
-.Subtext-bold,
-.Subtext-medium,
-.Subtext-regular {
+@mixin Subtext-bold {
+    @include Subtext;
+}
+@mixin Subtext-medium {
+    @include Subtext;
+}
+@mixin Subtext-regular {
     @include Subtext;
 }
