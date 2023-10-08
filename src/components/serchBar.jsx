@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/components/serchBar.scss';
 
 function SerchBar() {
+    console.log('test');
     return (
         <div className="SerchBar">
             <div className="SerchBar_rg">
@@ -28,9 +29,7 @@ function SerchBar() {
                 </svg>
             </div>
             <div className="SerchBar-text">
-                <input type="TEXT" name="검색어를 입력하세요">
-                    {' '}
-                </input>
+                <input type="text" name="검색어를 입력하세요" />
             </div>
         </div>
     );
