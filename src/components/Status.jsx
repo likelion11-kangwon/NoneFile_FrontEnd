@@ -11,10 +11,10 @@ function Status({ None }) {
                         <StatusFace face="frown" />
                     </div>
                     <div>
-                        <h3>
+                        <span>
                             "앗! 아직 게시글이 없어요 : (이 카테고리의 첫 게글을
                             작성해봐요!"
-                        </h3>
+                        </span>
                     </div>
                 </div>
             ) : (

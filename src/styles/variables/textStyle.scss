@@ -1,71 +1,125 @@
 //text file
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css');
+
+// text style base
+@mixin text-style-base {
+    font-family:
+        'Pretendard Variable',
+        Pretendard,
+        -apple-system,
+        BlinkMacSystemFont,
+        system-ui,
+        Roboto,
+        'Helvetica Neue',
+        'Segoe UI',
+        'Apple SD Gothic Neo',
+        'Noto Sans KR',
+        'Malgun Gothic',
+        'Apple Color Emoji',
+        'Segoe UI Emoji',
+        'Segoe UI Symbol',
+        sans-serif;
+    font-style: normal;
+}
+
 @mixin Title {
+    @include text-style-base;
     font-size: 26px;
     line-height: 38px;
 }
 
+@mixin Title-heavy {
+    @include Title;
+    font-weight: 800;
+}
+
+// subtitle
+
 @mixin Subtitle {
+    @include text-style-base;
     font-size: 20px;
     line-height: 28px;
 }
 
-@mixin Body1 {
-    font-size: 17px;
-    line-height: 22px;
-}
-
-@mixin Body2 {
-    font-size: 15px;
-    line-height: 20px;
-}
-
-@mixin Subtext {
-    font-size: 13px;
-    line-height: 18px;
-}
-
-@mixin Title-heavy {
-    @include Title;
-}
-
-@mixin Subtitle-boldSubtitle-medium {
+@mixin Subtitle-bold {
     @include Subtitle;
+    font-weight: 700;
 }
 
 @mixin Subtitle-medium {
     @include Subtitle;
+    font-weight: 500;
 }
 
-@mixin Body2-Regular {
-    @include Body2;
+// body1
+
+@mixin Body1 {
+    @include text-style-base;
+    font-size: 17px;
+    line-height: 22px;
 }
 
 @mixin Body1-bold {
     @include Body1;
+    font-weight: 700;
 }
+
 @mixin Body1-medium {
     @include Body1;
+    font-weight: 500;
 }
+
 @mixin Body1-Regular {
     @include Body1;
+    font-weight: 400;
+}
+
+// body2
+
+@mixin Body2 {
+    @include text-style-base;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 @mixin Body2-heavy {
     @include Body2;
+    font-weight: 800;
 }
+
 @mixin Body2-bold {
     @include Body2;
+    font-weight: 700;
 }
+
 @mixin Body2-medium {
     @include Body2;
+    font-weight: 500;
+}
+
+@mixin Body2-Regular {
+    @include Body2;
+    font-weight: 400;
+}
+
+@mixin Subtext {
+    @include text-style-base;
+    font-size: 13px;
+    line-height: 18px;
 }
 
 @mixin Subtext-bold {
     @include Subtext;
+    font-weight: 700;
 }
+
 @mixin Subtext-medium {
     @include Subtext;
+    font-weight: 500;
 }
+
 @mixin Subtext-regular {
     @include Subtext;
+    font-weight: 400;
 }
