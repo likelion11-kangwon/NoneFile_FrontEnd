@@ -1,0 +1,40 @@
+@import '../variables/color.scss';
+@import '../variables/textStyle.scss';
+
+.view {
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+    padding: 0px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    background: var(--SubColor, #f2f0ff);
+}
+
+.head {
+    display: flex;
+    width: 1440px;
+    min-width: 800px;
+    max-width: 1980px;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--MainColor, #804bf1);
+    background: var(--White, #fff);
+}
+
+.Frame47 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    align-self: stretch;
+}
+
+.Frame45 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
