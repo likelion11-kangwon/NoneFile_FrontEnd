@@ -1,0 +1,22 @@
+@import '../variables/color.scss';
+@import '../variables/textStyle.scss';
+
+.service-name-frame {
+    display: flex;
+    width: 172px;
+    height: 38px;
+    padding-right: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    .service-name-text {
+        color: $Black;
+        @include Title-heavy;
+    }
+
+    .service-name-text-white {
+        color: $White;
+        @include Title-heavy;
+    }
+}

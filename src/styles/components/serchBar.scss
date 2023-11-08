@@ -1,0 +1,23 @@
+@import '../variables/color.scss';
+@import '../variables/textStyle.scss';
+
+.SerchBar {
+    display: flex;
+    width: 400px;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 100px;
+    background-color: $sub_color;
+
+    .SerchBar_rg {
+        width: 20px;
+        height: 21px;
+        flex-shrink: 0;
+    }
+}
+
+.SerchBar-text input[type='text'] {
+    color: $grey_3;
+    @include Body2-Regular;
+}

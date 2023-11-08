@@ -1,0 +1,26 @@
+@import '../variables/color.scss';
+@import '../variables/textStyle.scss';
+
+.left-bar-button {
+    display: flex;
+    width: 200px;
+    min-width: 160px;
+    max-width: 160px;
+    padding: 8px 40px;
+    align-items: center;
+    gap: 12px;
+
+    border-radius: 16px;
+    background: $White;
+
+    .left-bar-button-text {
+        color: $Black;
+        @include Body1-medium;
+    }
+}
+
+.left-bar-button:hover {
+    box-shadow: 0 0 0 2px $main_color inset;
+    background: $White;
+    transition: box-shadow 0.2s;
+}
