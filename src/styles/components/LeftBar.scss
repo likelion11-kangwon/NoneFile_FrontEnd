@@ -1,0 +1,44 @@
+@import '../variables/color.scss';
+@import '../variables/textStyle.scss';
+
+.left-bar-frame {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    background-color: $sub-color;
+
+    .left-bar-naviagtion {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+
+        border-radius: 20px;
+    }
+
+    .left-bar-category {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+
+        border-radius: 20px;
+
+        .left-bar-category-text {
+            color: $Black;
+            @include Body1-bold;
+        }
+
+        .left-bar-category-list {
+            display: flex;
+            padding: 20px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 12px;
+        }
+    }
+}
