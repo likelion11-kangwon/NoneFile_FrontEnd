@@ -1,0 +1,130 @@
+@import '../variables/color.scss';
+@import '../variables/textStyle.scss';
+
+.main {
+    display: flex;
+    align-self: stretch;
+    height: 1024px;
+    padding: 0px 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(90deg, #3d1e6e 28.72%, #541e6e 171.22%);
+}
+
+.Group30 {
+    width: 1440px;
+    height: 1024px;
+    position: absolute;
+}
+
+.Frame81 {
+    display: flex;
+    width: 1280px;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    right: 75px;
+    bottom: 170px;
+}
+
+.Frame4 > p {
+    color: var(--White, #fff);
+    font-family: Pretendard;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px; /* 146.154% */
+}
+
+.Frame81 > p {
+    width: 619px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Pretendard;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px; /* 192.308% */
+}
+
+.Frame4 {
+    display: flex;
+    padding: 240px 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 25px;
+    border: 1px solid var(--SubColor, #f2f0ff);
+    background: rgba(128, 75, 241, 0.2);
+}
+
+.Frame4 > p {
+    color: var(--White, #fff);
+    font-family: Pretendard;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px; /* 146.154% */
+}
+
+.google_bet {
+    display: flex;
+    width: 300px;
+    padding: 9px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    border: 1px solid #1f1f1f;
+    background: var(--White, #fff);
+}
+
+.google_bet > p {
+    color: #000;
+
+    /* Body1-bold */
+    font-family: Pretendard;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 129.412% */
+}
+
+.googlee {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.git_bet {
+    display: flex;
+    width: 300px;
+    padding: 9px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    border: 1px solid #1f1f1f;
+    background: var(--White, #fff);
+}
+
+.gite {
+    width: 31.878px;
+    height: 32px;
+    flex-shrink: 0;
+    fill: #24292f;
+}
+
+.git_bet > p {
+    color: #000;
+
+    /* Body1-bold */
+    font-family: Pretendard;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 129.412% */
+}
